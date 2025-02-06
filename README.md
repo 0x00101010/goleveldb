@@ -1,3 +1,5 @@
+Forked from [github.com/syndtr/goleveldb](https://github.com/syndtr/goleveldb) on 2025-02-06 at commit 2ae1ddf74ef7020251ff1ff0fe8daac21a157761. This corresponds to the version specified as a dependency by go-ethereum and op-geth when this fork was created (github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7).
+
 This is an implementation of the [LevelDB key/value database](http:code.google.com/p/leveldb) in the [Go programming language](http:golang.org).
 
 [![Build Status](https://travis-ci.org/syndtr/goleveldb.png?branch=master)](https://travis-ci.org/syndtr/goleveldb)

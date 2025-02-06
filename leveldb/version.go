@@ -381,7 +381,7 @@ func (v *version) computeCompaction() {
 			score = float64(len(tables)) / float64(v.s.o.GetCompactionL0Trigger())
 
 			// Make sure always set score to max if there are as many files as the pause trigger so that we can resume write asap.
-			if len(tables) == v.s.o.GetWriteL0PauseTrigger() {
+			if len(tables) >= v.s.o.GetWriteL0PauseTrigger() {
 				score = math.MaxFloat64
 			}
 		} else {

@@ -1,0 +1,2 @@
+#~ {"path": "*", "required_reviews": 1, "teams": {"@cloud/core-staking-platform": {"required_reviews": 1}}}
+* @cloud/core-staking-platform
